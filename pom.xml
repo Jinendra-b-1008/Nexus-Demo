@@ -15,7 +15,7 @@
 	<description>Project for Spring Boot</description>
 	<packaging>jar</packaging>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>17.0.12</java.version>
 		<jacoco.version>0.8.7</jacoco.version>
    		<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
     		<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
@@ -90,7 +90,6 @@
             <target>17</target>
         </configuration>
     </plugin>
-
     <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
